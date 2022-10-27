@@ -1,0 +1,20 @@
+.header_navigation {
+    color: #fff;
+    padding: 15px 0;
+    background-color: #3c3f41;
+    border-bottom: 1px solid red;
+}
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: calc(100% - 100px);
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            padding: 0 20px;
+        }
+    }
+}
